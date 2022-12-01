@@ -4,6 +4,31 @@
     <TargetFramework>net7.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <Title>Nanoteks WPF Helpers</Title>
+	  <Authors>Kristian Skov Johansen</Authors>
+	  <Description>A collection of helper methods for developing WPF applications.</Description>
+	  <RepositoryUrl>https://github.com/kris701/Nanotek.WPF.Helpers</RepositoryUrl>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+	<PropertyGroup>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<Version>1.0.0</Version>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\LICENSE.txt">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
 
 </Project>
